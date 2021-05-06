@@ -1,0 +1,21 @@
+{
+  "name": "uni-js-lib",
+  "version": "0.0.2-beta-9",
+  "description": "A lib of Js common methods",
+  "main": "./lib/index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "JsLib"
+  ],
+  "author": "UniHall",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
