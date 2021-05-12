@@ -29,7 +29,3 @@ export function parseChildTree(normalList, parentList, parentIdName) {
     }
   }
 }
-
-export function consoleData(data) {
-  console.info(data)
-}
